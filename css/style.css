@@ -14,11 +14,12 @@ body{
 
 .header{
     background: #3E8989;
-    padding: 37px 165px;
+    padding: 37px 0;
 }
 
 .container{
     max-width: 1140px;
+    padding: 0 15px;
     margin: 0 auto;
     width: 100%;
     height: 100%;
@@ -26,6 +27,7 @@ body{
 
 .wrap{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -124,6 +126,7 @@ body{
     font-size: 40px;
     font-weight: 500;
     line-height: 47px;
+    text-align: center;
     margin-bottom: 50px;
 }
 
@@ -134,8 +137,6 @@ body{
     line-height: 22px;
     background: #B4436C;
     border-radius: 30px;
-    width: 200px;
-    height: 50px;
     padding: 14px 77px;
     color: white;
     transition: 0.4s;
@@ -162,7 +163,9 @@ body{
 
 .about_wrap{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .about_desc{
@@ -201,25 +204,25 @@ body{
 .card_cloth{
     background: #E5E5E5;
     padding: 1px 33px;
-    width: 263px;
+    max-width: 263px;
 }
 
 .card_shoes{
     background: #E5E5E5;
     padding: 77px 23px;
-    width: 263px;
+    max-width: 263px;
 }
 
 .card_tents{
     background: #E5E5E5;
     padding: 75px 2px;
-    width: 263px;
+    max-width: 263px;
 }
 
 .card_backpacks{
     background: #E5E5E5;
     padding: 19px 0;
-    width: 263px;
+    max-width: 263px;
 }
 
 .card_body{
@@ -257,7 +260,8 @@ body{
     font-size: 40px;
     font-weight: 600;
     line-height: 48px;
-    margin: 100px 388px 50px 0;
+    text-align: left;
+    margin: 100px 0 50px 0;
 }
 
 .contacts_p{
@@ -266,7 +270,7 @@ body{
     font-weight: 400;
     line-height: 24px;
     color: black;
-    
+    max-width: 555px;
 }
 
 .delivery{
@@ -285,7 +289,7 @@ body{
     display: flex;
     justify-content: space-between;
     height: 100%;
-    gap: 388px;
+    gap: 20px;
 }
 
 .footer{
