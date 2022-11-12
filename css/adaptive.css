@@ -35,6 +35,12 @@
     }
 }
 
+@media screen and (max-width:574px){
+    .backpack{
+        margin-left: 70px;
+    }
+}
+
 @media screen and (max-width:560px) {
     .contacts_wrap {
         flex-direction: column;
